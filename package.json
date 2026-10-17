@@ -1,0 +1,17 @@
+{
+  "name": "canvas-grades",
+  "version": "1.0.0",
+  "description": "Grade math for Canvas LMS: current grade from weighted or points-based assignment groups, drop rules, extra credit, the score you need on the final, each assignment's share of the grade, GPA, and grade breakdowns read from syllabus text. The engine behind Canvas+.",
+  "main": "index.js",
+  "files": ["index.js", "README.md", "README.zh-CN.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["canvas", "canvas-lms", "instructure", "grades", "grade-calculator", "final-grade", "gpa", "syllabus", "students"],
+  "author": "Baowen Liu (https://www.baowenliu.com)",
+  "homepage": "https://github.com/getcanvasplus/canvas-grades#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/getcanvasplus/canvas-grades.git" },
+  "bugs": { "url": "https://github.com/getcanvasplus/canvas-grades/issues" },
+  "license": "AGPL-3.0-only",
+  "engines": { "node": ">=18" }
+}
